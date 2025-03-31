@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Super Mario 256";
+    src: url("../assets/fonts/super-mario-256.ttf") format("truetype"); /* Adjust the path */
+  }
+  
+  /* .letter {
+    font-size: 250px;
+    font-weight: bold;
+    font-family: "Super Mario 256", sans-serif;
+    color: transparent; 
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.6);
+  } */
+  .m-image {
+    width: 310px;  /* Adjust based on your image size */
+    height: auto;
+    position: absolute;
+  }
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0067b2; 
+  }
+  
+  .loading-circle {
+    width: 500px; /* Ensures it's a perfect circle */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  
+  .loading-circle::before {
+    content: "";
+    display: block; /* Ensures visibility */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 4px solid rgba(255, 255, 255, 0.2); /* Translucent rotating border */
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: rotate 4s linear infinite;
+  }
+  
+  /* .circle {
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: rotate 4s linear infinite;
+  } */
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://keerthi9904.github.io/Mario_World/",
+  "homepage": "https://keerthi9904.github.io/Mario_World",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

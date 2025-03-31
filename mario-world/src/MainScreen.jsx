@@ -9,7 +9,7 @@ const MainScreen = () => {
     }
 
   return (
-    <div className="w-screen bg-bluebg h-screen flex flex-col items-center justify-center text-white relative overflow-hidden pt-85">
+    <div className="w-screen bg-bluebg h-screen flex flex-col items-center justify-center text-white relative overflow-hidden pt-100">
       {/* Mario Image */}
 
     <div>
@@ -66,9 +66,20 @@ const MainScreen = () => {
       <img
         src="/current_titles.png"
         alt="Newsletter"
-        className="relative bottom-1 left-77 w-50 hover:scale-125"
+        className="relative bottom-125 z-1 left-65 w-50 hover:scale-125"
       />
     </div>
+
+    <div>
+        {/* Patch for watermark */}
+      <img
+        src="/bluepatch.png"
+        alt="Newsletterssss"
+        className="relative bottom-140 left-95 w-50 hover:scale-125"
+      />
+    </div>
+
+
     
     </div>
   );

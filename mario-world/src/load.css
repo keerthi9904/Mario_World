@@ -46,28 +46,6 @@
     animation: rotate 4s linear infinite;
   }
   
-  /* .circle {
-    width: 500px;
-    height: 500px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .circle::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    border: 4px solid rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    border-top-color: transparent;
-    animation: rotate 4s linear infinite;
-  } */
-  
   @keyframes rotate {
     from {
       transform: rotate(0deg);

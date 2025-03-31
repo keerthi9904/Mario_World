@@ -10,7 +10,7 @@ const Load = () => {
   useEffect(() => {
     setTimeout(() => {
       navigate("/main"); // Replace with your actual target route
-    }, 1000); // Adjust delay as needed
+    }, 1800); // Adjust delay as needed
   }, [navigate]);
 
   return (

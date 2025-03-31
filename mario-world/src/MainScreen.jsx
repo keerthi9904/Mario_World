@@ -9,7 +9,7 @@ const MainScreen = () => {
     }
 
   return (
-    <div className="w-screen bg-bluebg h-screen flex flex-col items-center justify-center text-white relative overflow-hidden pt-100">
+    <div className="w-screen bg-bluebg h-full flex flex-col items-center justify-center text-white relative pt-20">
       {/* Mario Image */}
 
     <div>

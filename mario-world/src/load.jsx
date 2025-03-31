@@ -7,11 +7,11 @@ import MImage from "./assets/mario-m.png";
 const Load = () => {
   const navigate = useNavigate();
 
-//   useEffect(() => {
-//     setTimeout(() => {
-//       navigate("/target"); // Replace with your actual target route
-//     }, 10000); // Adjust delay as needed
-//   }, [navigate]);
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("/main"); // Replace with your actual target route
+    }, 1000); // Adjust delay as needed
+  }, [navigate]);
 
   return (
     <div className="loading-container">
